@@ -1,0 +1,25 @@
+<ion-navbar *navbar>
+  <ion-title>More Details</ion-title>
+</ion-navbar>
+
+<ion-content padding class="detail">
+
+  <ion-card>
+    <ion-card-header text-center>
+      <div class="item item-avatar">
+      <img [src] = "item.image" [hidden] ="!item.image">
+    </div>
+      {{item.score}}-{{item.name}}{{item.summary}}
+    </ion-card-header>
+    <ion-card-content>
+      {{item.description}}
+      <br>
+      <hr>
+      <h2 [hidden]="!item.questions">Questions to consider:</h2>
+    <ion-list >
+      <ion-item *ngFor = "let question of item.questions" text-wrap>{{question}}</ion-item>
+    </ion-list>
+  </ion-card-content>
+
+  </ion-card>
+</ion-content>

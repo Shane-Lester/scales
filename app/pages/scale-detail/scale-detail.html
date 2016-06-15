@@ -1,0 +1,24 @@
+<ion-navbar *navbar>
+  <ion-title>Scale</ion-title>
+</ion-navbar>
+
+<ion-content padding class="scale-detail">
+    <ion-card>
+        <ion-card-header>
+            {{scale.title}}
+        </ion-card-header>
+        <ion-card-content>
+          <ion-list>
+            <button secondary ion-item text-wrap *ngFor = "let item of scale.items" (click) = "itemDetail($event,item)">
+              <ion-avatar item-left>
+              <img [src] = "item.image" [hidden] ="!item.image">
+              </ion-avatar>
+              <h2>{{item.score}}-{{item.name}}: {{item.summary}}
+              </h2>
+              <p >{{item.description}}</p>
+            </button>
+          </ion-list>
+        </ion-card-content>
+    </ion-card>
+
+</ion-content>
