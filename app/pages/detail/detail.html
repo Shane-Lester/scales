@@ -11,8 +11,9 @@
     </div>
       {{item.score}}-{{item.name}}{{item.summary}}
     </ion-card-header>
-    <ion-card-content>
+    <ion-card-content >
       {{item.description}}
+      <p [innerHTML] ="item.link"></p>
       <br>
       <hr>
       <h2 [hidden]="!item.questions">Questions to consider:</h2>
