@@ -128,7 +128,7 @@ export class DataService {
         items: [
             {
                 name: "Link for more information",
-                link: "<a href='https://www.whatdotheyknow.com/request/238377/response/593545/attach/4/Delirium%20toolkit.pdf'>More Info</a>"
+                link: "https://www.whatdotheyknow.com/request/238377/response/593545/attach/4/Delirium%20toolkit.pdf"
             },
             {
                 name: "Constipation",
@@ -266,7 +266,7 @@ export class DataService {
         items: [
             {
               name:"Link for more details",
-              link:"<a href='http://pathways.nice.org.uk/pathways/transient-loss-of-consciousness#path=view%3A/pathways/transient-loss-of-consciousness/initial-assessment-for-transient-loss-of-consciousness.xml&content=view-node%3Anodes-12-lead-ecg'>More Info</a>"
+              link:"http://pathways.nice.org.uk/pathways/transient-loss-of-consciousness#path=view%3A/pathways/transient-loss-of-consciousness/initial-assessment-for-transient-loss-of-consciousness.xml&content=view-node%3Anodes-12-lead-ecg"
             },
             {
                 name: "What happened - before, during, after?",
@@ -316,22 +316,22 @@ abnormalities = {
         {
             name: "Brugada syndrome - link",
             description: "(ST elevation in V1-3 with inverted T in conjunction with syncope, commoner in Asian males, can be transient and unmasked by illness)",
-            link: "<a href='http://lifeinthefastlane.com/ecg-library/brugada-syndrome/'>Brugada Syndrome</a>"
+            link: "http://lifeinthefastlane.com/ecg-library/brugada-syndrome/"
         },
         {
             name: "Left ventricular hypertrophy -link",
             description: "(thickened ventricle which is associated with ventricular and supraventricular arrthymias and also sudden cardiac death.  Deep S waves (the wave that goes down in the QRS) in V 1-3 and tall R waves in lateral leads V4-6, also other abnormalities outlined here:",
-            link: "<a href='http://lifeinthefastlane.com/ecg-library/basics/left-ventricular-hypertrophy/)'>Left ventricular hypertrophy</a>"
+            link: "http://lifeinthefastlane.com/ecg-library/basics/left-ventricular-hypertrophy/)"
         },
         {
             name: "Right ventricular hypertrophy - link",
             description: "(RSR1 pattern in v 1, right axis deviation, st depression and t wave inversion in v1-4 (anterior leads) and sometimes also inferior leads (II, III, AVL)   ",
-            link: "<a href='http://lifeinthefastlane.com/ecg-library/basics/right-ventricular-hypertrophy/)'>Right ventricular hypertrophy</a>"
+            link: "http://lifeinthefastlane.com/ecg-library/basics/right-ventricular-hypertrophy/)"
         },
         {
             name: "Wolf-Parkinson-White or other pre-excitation -link",
             description: "This is where an accessory pathway conducts electricity via a shortcut from atria to ventricles and often back again. So the PR interval is short (<120ms or less than 3 small squares), and in WPW there is a broad slurred upstroke to the first part of the QRS (delta wave) which is the ventricles being activated via the accessory pathway.  In WPW the QRS is broad but in other syndromes it may be normal. ",
-            link: "<a href='http://lifeinthefastlane.com/ecg-library/pre-excitation-syndromes/)'>Pre-Excitation syndromes</a>"
+            link: "http://lifeinthefastlane.com/ecg-library/pre-excitation-syndromes/)"
 
         },
         {

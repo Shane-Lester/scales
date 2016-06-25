@@ -13,7 +13,7 @@
     </ion-card-header>
     <ion-card-content >
       {{item.description}}
-      <p [innerHTML] ="item.link"></p>
+      <button (click)= "launch(item.link)">{{item.link}}</button>
       <br>
       <hr>
       <h2 [hidden]="!item.questions">Questions to consider:</h2>
