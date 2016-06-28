@@ -132,46 +132,57 @@ export class DataService {
             },
             {
                 name: "Constipation",
+                link:"",
                 description: "Do a PR to check for impaction"
             },
             {
                 name: "Urinary retention",
+                link:"",
                 description: "Do a bladder scan"
             },
             {
                 name: "Subdural haemorrhage",
+                link:"",
                 description: "Consider doing a do a head CT if suspected"
             },
             {
                 name: "Acute coronary syndrome",
+                link:"",
                 description: "Do an ECG if suspected"
             },
             {
                 name: "Hypoxia",
+                link:"",
                 description: "Look at oxygen saturation and the rest of the obs"
             },
             {
                 name: "Infection",
+                link:"",
                 description: "Clinical examination and bloods (chest, urine, gallbladder, throat, skin, CNS..)"
             },
             {
                 name: "Hypo or hyperglycaemia- ",
+                link:"",
                 description: "Do a BM"
             },
             {
                 name: "Medication",
+                link:"",
                 description: "Look at the drug card for cogntitively active drugs"
             },
             {
                 name: "Pain ",
+                link:"",
                 description: "Ask about pain – is the person grimacing?  Do family members think they’re in pain?"
             },
             {
                 name: "Parkinson’s disease ",
+                link:"",
                 description: "Have they had exactly the right medication- dopamine withdrawal could be a problem if not."
             },
             {
                 name: "Alcohol history",
+                link:"",
                 description: "Could they be withdrawing?"
             }
         ]
@@ -290,13 +301,14 @@ export class DataService {
             },
             {
                 name: "ECG abnormalities not to miss",
-                description:"See Scales page for ECG abnormalities"
+                description:"",
+                link:"ECG"
             }
       ]};
 
 abnormalities = {
     title: "ECG Abnormalities not to miss",
-    description: "",
+    description: "ECG",
     items: [{
         name: "Bradycardia",
         description: "(pulse under 60)"
@@ -358,5 +370,10 @@ constructor() {
 }
 getData(){
     return this.scales;
+}
+
+getScale(scale){
+  return this.scales[scale];
+
 }
 }

@@ -13,7 +13,7 @@
     </ion-card-header>
     <ion-card-content text-wrap >
       {{item.description}}
-      <p><button (click)= "launch(item.link)" [hidden]="!item.link">Click to open</button></p>
+      <p><button (click)= "launch(item.link)" *ngIf="item.link">Click to open</button></p>
       <br>
       <hr>
       <h2 [hidden]="!item.questions">Questions to consider:</h2>

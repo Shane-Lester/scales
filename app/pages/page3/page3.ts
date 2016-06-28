@@ -15,6 +15,7 @@ export class Page3 {
     this.scales = dataService.getData();
   }
   showScale(event, scale, index) {
+    // console.log(scale);
       this.nav.push(ScaleDetailPage, { scale: scale, scaleIndex: index, ScalePage: this });
     }
   }

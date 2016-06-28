@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "796a5cca-c4d1-4a61-8914-184efd7624dd",
-      "lastModifiedDate": 1466855488744,
+      "lastModifiedDate": 1467155000035,
       "creationDate": 1466811711256
     },
     "sourceDirectory": "www",
@@ -213,7 +213,7 @@
           "ios-configuration": "production"
         },
         "isActive_": true,
-        "appName_": "Scales",
+        "appName_": "Geripedia",
         "appID_": "uk.co.lesterweb.clerking",
         "appAccess_": {
           "mode": "whitelist",
@@ -307,24 +307,6 @@
         ],
         "splashes_": [
           {
-            "relPath": "resources/ios/splash/Default-Landscape-736h.png",
-            "height": 1242,
-            "width": 2208,
-            "orientation": "landscape"
-          },
-          {
-            "relPath": "resources/ios/splash/Default-Landscape@2x~ipad.png",
-            "height": 1536,
-            "width": 2048,
-            "orientation": "landscape"
-          },
-          {
-            "relPath": "resources/ios/splash/Default-Landscape~ipad.png",
-            "height": 768,
-            "width": 1024,
-            "orientation": "landscape"
-          },
-          {
             "relPath": "resources/ios/splash/Default-667h.png",
             "height": 1334,
             "width": 750,
@@ -367,6 +349,24 @@
             "orientation": "portrait"
           },
           {
+            "relPath": "resources/ios/splash/Default-Landscape~ipad.png",
+            "height": 768,
+            "width": 1024,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "resources/ios/splash/Default-Landscape@2x~ipad.png",
+            "height": 1536,
+            "width": 2048,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "resources/ios/splash/Default-Landscape-736h.png",
+            "height": 1242,
+            "width": 2208,
+            "orientation": "landscape"
+          },
+          {
             "relPath": "resources/ios/splash/landscape.png",
             "height": 750,
             "width": 1334,
@@ -376,7 +376,7 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "certificateId_": "2vMbynNPSkSA25K9k7EKLg2",
-        "appVersion_": "0.0.5",
+        "appVersion_": "0.0.6",
         "cordovaCLIVersion_": "5.4.1",
         "iosProvs_": [
           {
@@ -390,7 +390,7 @@
         ],
         "appDescription_": "Clinical scales for junior doctors",
         "appAuthor_": "shanesapps",
-        "appVersionCode_": "0.0.5"
+        "appVersionCode_": "0.0.6"
       },
       "Windows8": {
         "platform_": "windows8",
