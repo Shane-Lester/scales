@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "796a5cca-c4d1-4a61-8914-184efd7624dd",
-      "lastModifiedDate": 1466813555958,
+      "lastModifiedDate": 1466855488744,
       "creationDate": 1466811711256
     },
     "sourceDirectory": "www",
@@ -56,6 +56,25 @@
         "dependedBy": []
       },
       {
+        "id": "cordova-plugin-statusbar",
+        "name": "StatusBar",
+        "version": "2.1.0",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-statusbar",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-statusbar",
+        "selectedState": "Included",
+        "checksum": "858cc583",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "permissions": {},
+        "description": "Cordova StatusBar Plugin",
+        "data": {},
+        "dependedBy": []
+      },
+      {
         "id": "cordova-plugin-device",
         "name": "Device",
         "version": "1.1.1",
@@ -72,6 +91,83 @@
         "description": "Cordova Device Plugin",
         "data": {},
         "dependedBy": []
+      },
+      {
+        "id": "cordova-plugin-console",
+        "name": "Console",
+        "version": "1.0.3",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-console",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-console",
+        "selectedState": "Included",
+        "checksum": "e491457b",
+        "dependsOn": [],
+        "topLevel": true,
+        "permissions": {},
+        "description": "Cordova Console Plugin",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
+      },
+      {
+        "id": "cordova-plugin-splashscreen",
+        "name": "Splashscreen",
+        "version": "3.2.2",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-splashscreen",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-splashscreen",
+        "selectedState": "Included",
+        "checksum": "b3ad230b",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.1.0",
+        "permissions": {},
+        "description": "Cordova Splashscreen Plugin",
+        "data": {},
+        "dependedBy": []
+      },
+      {
+        "id": "cordova-plugin-whitelist",
+        "name": "Whitelist",
+        "version": "1.2.2",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-whitelist",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-whitelist",
+        "selectedState": "Included",
+        "checksum": "c0d34e60",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "permissions": {},
+        "description": "Cordova Network Whitelist Plugin",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
+      },
+      {
+        "id": "ionic-plugin-keyboard",
+        "name": "Keyboard",
+        "version": "2.2.1",
+        "originType": "cordova.io",
+        "origin": "ionic-plugin-keyboard",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/ionic-plugin-keyboard",
+        "selectedState": "Included",
+        "checksum": "83e55ac3",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "permissions": {},
+        "description": "Ionic Keyboard Plugin",
+        "data": {},
+        "dependedBy": []
       }
     ],
     "serviceMethods": [],
@@ -86,7 +182,7 @@
           "android-installLocation": "auto",
           "android-signed": true
         },
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "VickysApp",
         "appID_": "uk.co.lesterweb.clerking",
         "appAccess_": {
@@ -105,7 +201,8 @@
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
         "crosswalkVersion_": "16",
-        "cordovaCLIVersion_": "5.4.1"
+        "cordovaCLIVersion_": "5.4.1",
+        "appDescription_": ""
       },
       "iOS": {
         "platform_": "ios",
@@ -113,7 +210,7 @@
         "name_": "iOS",
         "preferences_": {
           "deployment-target": "8.0",
-          "ios-configuration": "adhoc"
+          "ios-configuration": "production"
         },
         "isActive_": true,
         "appName_": "Scales",
@@ -126,16 +223,164 @@
           "intents": [],
           "navigation": []
         },
-        "icons_": [],
-        "splashes_": [],
+        "icons_": [
+          {
+            "relPath": "resources/ios/icon/icon-small.png",
+            "height": 29,
+            "width": 29
+          },
+          {
+            "relPath": "resources/ios/icon/icon-small@2x.png",
+            "height": 58,
+            "width": 58
+          },
+          {
+            "relPath": "resources/ios/icon/icon-small@3x.png",
+            "height": 87,
+            "width": 87
+          },
+          {
+            "relPath": "resources/ios/icon/icon-60.png",
+            "height": 60,
+            "width": 60
+          },
+          {
+            "relPath": "resources/ios/icon/icon-60@2x.png",
+            "height": 120,
+            "width": 120
+          },
+          {
+            "relPath": "resources/ios/icon/icon-60@3x.png",
+            "height": 180,
+            "width": 180
+          },
+          {
+            "relPath": "resources/ios/icon/icon-76.png",
+            "height": 76,
+            "width": 76
+          },
+          {
+            "relPath": "resources/ios/icon/icon-76@2x.png",
+            "height": 152,
+            "width": 152
+          },
+          {
+            "relPath": "resources/ios/icon/icon-40.png",
+            "height": 40,
+            "width": 40
+          },
+          {
+            "relPath": "resources/ios/icon/icon-40@2x.png",
+            "height": 80,
+            "width": 80
+          },
+          {
+            "relPath": "resources/ios/icon/icon.png",
+            "height": 57,
+            "width": 57
+          },
+          {
+            "relPath": "resources/ios/icon/icon@2x.png",
+            "height": 114,
+            "width": 114
+          },
+          {
+            "relPath": "resources/ios/icon/icon-72.png",
+            "height": 72,
+            "width": 72
+          },
+          {
+            "relPath": "resources/ios/icon/icon-72@2x.png",
+            "height": 144,
+            "width": 144
+          },
+          {
+            "relPath": "resources/ios/icon/icon-50.png",
+            "height": 50,
+            "width": 50
+          },
+          {
+            "relPath": "resources/ios/icon/icon-50@2x.png",
+            "height": 100,
+            "width": 100
+          }
+        ],
+        "splashes_": [
+          {
+            "relPath": "resources/ios/splash/Default-Landscape-736h.png",
+            "height": 1242,
+            "width": 2208,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "resources/ios/splash/Default-Landscape@2x~ipad.png",
+            "height": 1536,
+            "width": 2048,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "resources/ios/splash/Default-Landscape~ipad.png",
+            "height": 768,
+            "width": 1024,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "resources/ios/splash/Default-667h.png",
+            "height": 1334,
+            "width": 750,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "resources/ios/splash/Default-736h.png",
+            "height": 2208,
+            "width": 1242,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "resources/ios/splash/Default-568h@2x~iphone.png",
+            "height": 1136,
+            "width": 640,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "resources/ios/splash/Default@2x~iphone.png",
+            "height": 960,
+            "width": 640,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "resources/ios/splash/Default~iphone.png",
+            "height": 480,
+            "width": 320,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "resources/ios/splash/Default-Portrait@2x~ipad.png",
+            "height": 2048,
+            "width": 1536,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "resources/ios/splash/Default-Portrait~ipad.png",
+            "height": 1024,
+            "width": 768,
+            "orientation": "portrait"
+          },
+          {
+            "relPath": "resources/ios/splash/landscape.png",
+            "height": 750,
+            "width": 1334,
+            "orientation": "landscape"
+          }
+        ],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "certificateId_": "1U35rRZc10SLgbtlGecrBg2",
-        "appVersion_": "0.0.2",
+        "certificateId_": "2vMbynNPSkSA25K9k7EKLg2",
+        "appVersion_": "0.0.5",
         "cordovaCLIVersion_": "5.4.1",
         "iosProvs_": [
           {
-            "relPath": "ClerkingDev.mobileprovision",
+            "relPath": "scalesDev.mobileprovision",
             "type": "adhoc"
           },
           {
@@ -145,14 +390,14 @@
         ],
         "appDescription_": "Clinical scales for junior doctors",
         "appAuthor_": "shanesapps",
-        "appVersionCode_": "0.0.2"
+        "appVersionCode_": "0.0.5"
       },
       "Windows8": {
         "platform_": "windows8",
         "runtime_": "Cordova 3.x",
         "name_": "Windows8",
         "preferences_": {},
-        "isActive_": true,
+        "isActive_": false,
         "appName_": "VickysApp",
         "appID_": "not.yet.specified",
         "appAccess_": {

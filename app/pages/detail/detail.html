@@ -4,16 +4,16 @@
 
 <ion-content padding class="detail">
 
-  <ion-card>
+  <ion-card text-wrap>
     <ion-card-header text-center>
       <div class="item item-avatar">
       <img [src] = "item.image" [hidden] ="!item.image">
     </div>
       {{item.score}}-{{item.name}}{{item.summary}}
     </ion-card-header>
-    <ion-card-content >
+    <ion-card-content text-wrap >
       {{item.description}}
-      <button (click)= "launch(item.link)">{{item.link}}</button>
+      <p><button (click)= "launch(item.link)" [hidden]="!item.link">Click to open</button></p>
       <br>
       <hr>
       <h2 [hidden]="!item.questions">Questions to consider:</h2>
